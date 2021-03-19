@@ -1,0 +1,43 @@
+.side_menu .point{
+  background-color: #fcecec;
+}
+.side_menu .point a{
+  color: #4d4d4d;
+}
+form {
+}
+form td{
+  float: left;
+  width: 150px;
+}
+button{
+  text-align: center;
+
+  font-size: 2.5rem;
+  border-radius: 20%;
+  width: 100px;
+  height: 50px;
+  background-color: #b0c4de;
+  color: #fff;
+  border-style: none;
+}
+button:hover{
+  opacity: 0.6;
+}
+table{
+  table-layout: fixed;
+}
+.hidari{
+  text-align: right;
+  margin-right: 20px;
+  font-size: 165%;
+  width: 150px;
+  height: 7rem;
+}
+.migi{
+  width: 480px;
+  height: 200%;
+}
+.sousin{
+  text-align: center;
+}

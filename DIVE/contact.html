@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>株式会社DIVE</title>
+  </head>
+  <body>
+   <div class="container">
+    <header class="header clearfix">
+     <a href="index.html"><img src="./images/logo.png" class="logo_image"></a>
+      <nav>
+        <ul class="top_menu clearfix">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="business.html">事業内容</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="./images/contact.png" class="image_area">
+    <div class="wrapper clearfix">
+     <aside class="side_menu">
+       <nav>
+         <ul>
+           <li><a href="business.html">事業内容</a></li>
+           <li><a href="company.html">会社概要</a></li>
+           <li class="point"><a href="conract.html">お問い合わせ</a></li>
+         </ul>
+       </nav>
+       <p class="banner">
+         <a href="#">
+           <img src="./images/banner.png">
+         </a>
+       </p>
+     </aside>
+     <form action="index.html" method="post" class="form">
+       <table>
+        <tr>
+         <td class="hidari" width="150px"><label for="name">お名前</label></td>
+         <td><input type="text" id="name" name="name" class="migi"></td>
+        </tr>
+        <tr>
+         <td class="hidari" width="150px"><label for="mail">メールアドレス</label></td>
+         <td><input type="email" id="mail" name="mail" class="migi"></td>
+        </tr>
+        <tr>
+         <td class="hidari" width="150px"><label for="sex" name="sex">性別</label></td>
+         <td><input type="radio" name="q1" value="男"> 男
+             <input type="radio" name="q1" value="女"> 女</td>
+        </tr>
+        <tr>
+         <td class=hidari width="150px"><label for="massage">お問い合わせ内容</label></td>
+         <td><textarea name="massage" rows="3" cols="50" class="migi"></textarea></td>
+        </tr>
+      </table>
+      <div class="sousin">
+       <button type="submit">送信</button>
+      </div>
+     </form>
+    </div>
+    <footer class="footer">
+      <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+    </footer>
+   </div>
+  </body>
+</html>
